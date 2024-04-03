@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Glacial';
+    src:url('./Glacial-Indifference-Regular.ttf.woff') format('woff'),
+        url('./Glacial-Indifference-Regular.ttf.svg') format('svg'),
+        url('./Glacial-Indifference-Regular.ttf.eot'),
+        url('./Glacial-Indifference-Regular.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}

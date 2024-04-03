@@ -1,0 +1,173 @@
+.project{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.view-project-link{
+    margin: 10px;
+
+}
+
+.intro{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: nowrap;
+}
+
+.title{
+    display: flex;
+
+}
+
+.pictureMe{
+        width: 535px;
+        height: 550px;
+        border-radius: 213px;
+        margin-right: 200px;
+        margin-top: 200px;
+
+
+}
+
+.texte_intro{
+    margin-top: 315px;
+    margin-right: 200px;
+    margin-left: 200px;
+    width: 1049px;
+    font-family: Glacial;
+    font-size: 26px;
+}
+
+.one_passion{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 175px;
+    width: 400px;
+    margin: 50px;
+
+}
+
+.circle{
+    border-radius: 100%;
+    background-color: #F2E963;
+    height: 175px;
+    width: 175px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    flex-direction: column;
+    
+}
+
+.icons_passion{
+    height: 100px;
+    width: 100px;
+}
+
+.texte_passion{
+    width: 200px;
+    font-family: Glacial;
+    font-size: 1.5em;
+    margin-left: 25px;
+}
+
+.passion{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 65px;
+    margin-top: 25px;
+}
+
+.a_propos{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.solo{
+    height: 400px ;
+    width: 425px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    margin: 65px;
+}
+
+.asso{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.texte_asso{
+    margin: 10px;
+    font-family: Glacial;
+
+}
+.title_asso{
+    margin: 10px;
+    font-family: Bebas Neue;
+}
+
+.formation{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    align-items: center;
+}
+
+.project{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap :75px;
+    flex-wrap: wrap;
+
+}
+
+
+li{
+    list-style:none;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+
+a:hover{
+    cursor: pointer;
+}
+
+.first_line_competence{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+}
+.second_line_competence{
+    margin-top: 50px;
+}
+
+.bold{
+    font-weight: bold;
+    font-family: Bebas Neue;
+    margin-bottom: 0;
+    font-size: 1.3em;
+}
+
+.asso_ord{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-left: 25px;
+    margin-right: 25px ;
+}

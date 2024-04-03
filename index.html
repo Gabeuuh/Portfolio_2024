@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio de Gabin Clavier</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./style/assets/fonts/fonts.css" />
+    <link rel="stylesheet" type="text/css" href="./style/components.css" />
+    <link rel="stylesheet" type="text/css" href="./style/layout.css" />
+    <link rel="stylesheet" type="text/css" href="./style/text.css" />
+    <link rel="stylesheet" type="text/css" href="./test.css"/>
+</head>
+
+<body>
+    <nav>
+
+        <a href="#" class="nav_texte">
+            Accueil
+        </a>
+        <a href="#skills" class="nav_texte">
+            Mes compétences
+        </a>
+        <a href="#me" class="nav_texte">
+            A propos de moi
+        </a>
+        <a href="#projet" class="nav_texte">
+            Projets
+        </a>
+    </nav>
+    <header class="home">
+        <h3 class="sous_categorie">Ravi d’avoir attiré votre curiosité,</h3>
+        <div class="title">
+        <h1>Je suis</h1>
+        <h1 id="element"></h1>
+        </div>
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+        <script>
+            var typed = new Typed('#element', {
+                strings: ['Gabin Clavier','Web developper'],
+                typeSpeed: 100,
+                showCursor: true,
+                cursorChar: '|',
+                loop: true,
+                backSpeed: 50,
+            });
+        </script>
+
+        <h2>Je recherche une alternance en développement web</h2>
+        <section class="project">
+            <a class="view-project-link" href="mailto:gabin.clavier22@gmail.com">
+                E-mail
+                <div class="hover-mask">
+                    <span class="its-mac"> E-mail </span>
+                </div>
+            </a>
+            <a class="view-project-link" href="https://www.linkedin.com/in/g-clavier" target="_blank">
+                LinkedIn
+                <div class="hover-mask">
+                    <span class="its-mac"> LinkedIn </span>
+                </div>
+            </a>
+            <a class="view-project-link" href="./medias/images/CV_Gabin_Clavier.png" target="_blank">
+                Mon CV
+                <div class="hover-mask">
+                    <span class="its-mac"> Mon CV </span>
+                </div>
+            </a>
+        </section>
+    </header>
+    <section class="intro">
+        <p class="texte_intro">Je suis actuellement en 1ère année de Bachelor Universitaire de Technologie Métier du
+            Multimédia et de l’Internet à l’IUT de Lannion.
+            Je recherche une alternance en développement web dès septembre prochain.
+            J’aime particulièrement m’investir dans de nouveaux projets alliant mes compétences de développement web et
+            de création graphique.
+            Au réveil, ma curiosité me pousse à découvrir de nouveaux outils de développement et de création et à
+            analyser le monde qui m’entoure pour essayer de l’enrichir.
+        </p>
+        <img src="./medias/images/image_test.jpeg" alt="Photo de Gabin Clavier" class="pictureMe">
+    </section>
+
+
+    <section class="skills">
+        <h2 class="categorie" id="skills">Compétences</h2>
+
+        <section class="first_line_competence">
+            <div class="box_skills">
+                <img class="logo_competence" src="./medias/images/html_logo.png"
+                    alt="Logo du langage de programmation HTML">
+                <div class="texte_competence">
+                    <h2 class="title_project">HTML</h2>
+                    <p class="texte_project">Je maîtrise le HTML, ce qui signifie que je suis capable de créer et de
+                        structurer le contenu d'un site web de manière efficace et organisée. En utilisant les balises
+                        HTML appropriées, je peux définir la structure de chaque élément d'une page web, tels que les
+                        titres, les paragraphes, les listes, les images, les liens, etc. Cette compétence me permet de
+                        concevoir des sites web bien structurés, cohérents et accessibles aux utilisateurs.
+                    </p>
+                </div>
+
+            </div>
+            <div class="box_skills green">
+                <img class="logo_competence" src="./medias/images/css_logo.png"
+                    alt="Logo du langage de programmation HTML">
+                <div class="texte_competence">
+                    <h2 class="title_project">CSS</h2>
+                    <p class="texte_project">
+                        Je maîtrise le CSS, ce qui me permet de styliser et de mettre en forme efficacement les éléments
+                        d'un site web. En utilisant le CSS, je suis en mesure de créer des mises en
+                        page attrayantes, responsives et cohérentes sur différentes plateformes et appareils. Cette
+                        compétence me permet également d'améliorer l'accessibilité et l'expérience utilisateur en
+                        rendant mes sites web plus intuitifs et esthétiquement agréables.
+                    </p>
+                </div>
+            </div>
+            <div class="box_skills orange">
+                <img class="logo_competence" src="./medias/images/js_Logo.png"
+                    alt="Logo du langage de programmation HTML">
+                <div class="texte_competence">
+                    <h2 class="title_project">JavaScript</h2>
+                    <p class="texte_project">
+                        Je connais le JavaScript, ce qui me permet d'ajouter des fonctionnalités interactives et
+                        dynamiques à un site web.
+                        En utilisant le JavaScript, je suis en mesure de manipuler le DOM, et des tableaux JSON et de
+                        répondre aux actions de l'utilisateur
+                    </p>
+                </div>
+            </div>
+            <div class="box_skills yellow">
+                <img class="logo_competence" src="./medias/images/php_logo.png"
+                    alt="Logo du langage de programmation HTML">
+                <div class="texte_competence">
+                    <h2 class="title_project">PHP</h2>
+                    <p class="texte_project">
+                        Avec le PHP, je suis en mesure de créer des fonctionnalités dynamiques et interactives pour les
+                        sites web, telles que la gestion des formulaires, l'accès aux bases de données, la création de
+                        sessions utilisateur, et bien plus encore.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="first_line_competence second_line_competence">
+            <div class="box_skills yellow">
+                <img class="logo_competence" src="./medias/images/marketing_logo.png"
+                    alt="Logo du langage de programmation HTML">
+                <div class="texte_competence">
+                    <h2 class="title_project">Marketing</h2>
+                    <p class="texte_project">
+                        Je connais les bases du marketing, je suis capable de réaliser une étude de marché, de réaliser
+                        un questionnaire quantitatif et de mettre en place une stratégie marketing.
+                    </p>
+                </div>
+            </div>
+            <div class="box_skills orange">
+                <img class="logo_competence" src="./medias/images/communication_logo.png"
+                    alt="Logo du langage de programmation HTML">
+                <div class="texte_competence">
+                    <h2 class="title_project">Communication</h2>
+                    <p class="texte_project">
+                        Grace à ma formation, je maitrise la communication en partant de la création de contenus
+                        persuasifs, à la gestion des médias sociaux,
+                        en passant pas la planification stratégique des campagnes de communication. J'ai également
+                        acquis
+                        des compétences en collaboration, en gestion de projet et en présentation. </p>
+                </div>
+            </div>
+            <div class="box_skills green">
+                <img class="logo_competence" src="./medias/images/audiovisuel_logo.png"
+                    alt="Logo du langage de programmation HTML">
+                <div class="texte_competence">
+                    <h2 class="title_project">Audiovisuel</h2>
+                    <p class="texte_project">Grâce à ma formation, j'ai acquis les bases de l'audiovisuel, comprenant
+                        les concepts et les
+                        techniques fondamentales nécessaires dans ce domaine. Ces connaissances couvrent divers aspects
+                        tels que la prise de vue, le montage vidéo, l'éclairage, le son et la narration visuelle. Grace
+                        à MMI, j'ai mis
+                        en pratique ces compétences à travers divers projets, où j'ai pu créer du contenu visuel de
+                        qualité et communiquer efficacement des messages à travers des supports audiovisuels</p>
+                </div>
+            </div>
+        </section>
+    </section>
+    <h2 class="categorie" id="me">A propos de moi</h2>
+    <h3 class="sous_categorie">Ce qui m'anime au quotidien</h3>
+    <section class="a_propos">
+        <div class="passion">
+            <article class="one_passion">
+                <div class="circle"><img src="./medias/images/icons_handball.png" alt="Icons joueur de handball"
+                        class="icons_passion"></div>
+                <h6 class="texte_passion">Je pratique le handball en compétition depuis mes 4 ans</h6>
+            </article>
+            <article class="one_passion">
+                <div class="circle"><img src="./medias/images/icons_chess.png" alt="Icons joueur de handball"
+                        class="icons_passion"></div>
+                <h6 class="texte_passion">Les échecs</h6>
+            </article>
+        </div>
+        <div class="passion">
+            <article class="one_passion">
+                <div class="circle"><img src="./medias/images/icons_computer.png" alt="Icons joueur de handball"
+                        class="icons_passion"></div>
+                <h6 class="texte_passion">L’informatique</h6>
+            </article>
+            <article class="one_passion">
+                <div class="circle"><img src="./medias/images/icons_tennis.png" alt="Icons joueur de handball"
+                        class="icons_passion"></div>
+                <h6 class="texte_passion">Le tennis</h6>
+            </article>
+        </div>
+
+        <div class="solo">
+            <article class="one_passion">
+                <div class="circle"><img src="./medias/images/icons_magazine.png" alt="Icons joueur de handball"
+                        class="icons_passion"></div>
+                <h6 class="texte_passion">L’actualité</h6>
+            </article>
+        </div>
+    </section>
+
+    <section class=asso>
+        <h3 class="sous_categorie">Expériences associatives</h3>
+        <div class="asso_ord">
+            <article class="box_asso block">
+                <h2 class="title_asso">Président de l'Association des Jeunes Trébeurdinais</h2>
+                <p class="texte_asso">J’ai été élu président de l’Association des Jeunes Trébeurdinais. L’objectif était
+                    de
+                    dynamiser ma commune en proposant des activités aux jeunes. Nous les avons financées en menant des
+                    actions telles que laver des voitures, tenir un stand de restauration lors du marché de Noël
+                </p>
+            </article>
+            <article class="box_asso block">
+                <h2 class="title_asso">Entraineur dans le club de hand de Trébeurden</h2>
+                <p class="texte_asso">Joueur de hand depuis mes 4 ans j’ai souhaité partager ma passion en
+                    m’investissant
+                    comme coach pour les plus jeunes. Je participe donc, en collaboration avec le salarié du club à
+                    l'élaboration et à l'animation de séance.</p>
+            </article>
+            <article class="box_asso block">
+                <h2 class="title_asso">Relation Sponsor / Association Tennis Trébeurden</h2>
+                <p class="texte_asso">Ma mission consiste à promouvoir l’activité tennistique auprès des entreprises et
+                    des
+                    commerçants locaux, pour cela je me déplace les rencontrer afin de leur expliquer le projet de
+                    l'association</p>
+            </article>
+        </div>
+    </section>
+    <h3 class="sous_categorie">Ma formation</h3>
+    <section class="formation">
+        <div class="line"></div>
+        <div class="circle_green fld">
+            <p class="texte_forma">Baccalauréat Général Lycée Félix Le Dantec Lannion</p>
+            <h2 class="years">2022</h2>
+        </div>
+        <div class="circle_green stvincent">
+            <p class="texte_forma">Classe Préparatoire aux Grandes Ecoles Saint Vincent, Rennes </p>
+            <h2 class="years">2022/2023</h2>
+        </div>
+        <div class="circle_green iut">
+            <p class="texte_forma">BUT Métiers du Multimédia et de l’Internet, IUT de Lannion</p>
+            <h2 class="years">2023/2026</h2>
+
+        </div>
+    </section>
+    <h2 class="categorie" id="projet">Mes projets</h2>
+    <section class="project">
+        <div class="sort">
+            <a class="active" onclick="filterSelection('all')">Tous</a>
+            <a onclick="filterSelection('com')">Communication</a>
+            <a onclick="filterSelection('dev')">Développement</a>
+            <a onclick="filterSelection('other')">Autres</a>
+        </div>
+        <article class="container">
+            <div class="card_project dev">
+                <div class="card_inner">
+                    <div class="card_front">
+                        <img src="./medias/images/site_pokemon.png"
+                            alt="Capture d'écran de la page d'accueil du site Pokémon que j'ai réalisé"
+                            class="img_project">
+                        <h3 class="title_project">Site Pokémon</h3>
+                    </div>
+                    <div class="card_back">
+                        <h3 class="title_project">Site Pokémon</h3>
+                        <p class="texte_project">Contexte : Dans le cadre d'un travail avec l'IUT, j'ai développé une
+                            application web qui simule et simplifie le processus de capture de Pokémon. Son objectif
+                            principal est de permettre à un dresseur unique de gérer sa collection de Pokémon de manière
+                            efficace et ludique.</p>
+                        <p class="texte_project">Méthode de travail : J'ai commencé par réaliser un moodboard, puis un
+                            wireframe. J'ai finalement intégré le site en HTML, CSS et PHP pour la partie serveur</p>
+                        <p class="bold">Compétences : </p>
+                        <ul class="texte_project">
+                            <li>Développement web (HTMl, CSS et PHP)</li>
+                            <li> Conception et deisgn (réalisation d'un moodboard et d'un wireframe)</li>
+                            <li>Travail en autonomie</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card_project com">
+                <div class="card_inner">
+                    <div class="card_front">
+                        <img src="./medias/images/affiche.png"
+                            alt="Affiche que j'a réalisée pour le festival A l'West Fest" class="img_project">
+                        <h3 class="title_project">Affiche festival A l'West Fest</h3>
+                    </div>
+                    <div class="card_back">
+                        <h3 class="title_project">Affiche festival A l'West Fest</h3>
+                        <p class="texte_project">Contexte : L'IUT de Lannion lance son premier Festival Multimédia,
+                            mettant
+                            en avant les réalisations des étudiants en MMI. Pour promouvoir cet événement, nous avons du
+                            créer une affiche.</p>
+                        <p class="texte_project">Méthode de travail : Pour ce projet, j'ai commencé par un brainstorming
+                            et
+                            une analyse du brief créatif en
+                            agence pour générer des idées. Après avoir effectué une recherche d'existant, j'ai créé un
+                            moodboard avec mon équipe. Ensuite, j'ai exploré
+                            différentes pistes créatives à travers des recherches graphiques. J'ai finalement réalisé
+                            une
+                            affiche à partir d'une des propositions</p>
+                        <p class="bold">Compétences : </p>
+                        <ul class="texte_project">
+                            <li>Créativité</li>
+                            <li>Collaboration</li>
+                            <li>Conception visuelle</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card_project com">
+                <div class="card_inner">
+                    <div class="card_front">
+                        <img src="./medias/images/reco_com_numerique.png"
+                            alt="Page de garde du dossier de recommandation de communication que j'ai réalisé"
+                            class="img_project">
+                        <h3 class="title_project">Recommandation de communication</h3>
+                    </div>
+                    <div class="card_back">
+                        <h3 class="title_project">Recommandation de communication</h3>
+                        <p class="texte_project">Contexte : Dans le cadre de ma première année de MMI, j'ai
+                            du créer un projet de communication visant à promouvoir un festival Multimédia
+                            Ma mission à consisté à concevoir une recommandation
+                            marketing et un plan de communication pour attirer les étudiants à participer à cet
+                            événement.
+
+                        </p>
+                        <p class="texte_project">Méthode de travail : En collaboration avec mon équipe, nous avons
+                            analysé
+                            le contexte, défini les publics cibles
+                            et élaborer des stratégies de communication efficaces pour atteindre nos objectifs. </p>
+                        <p class="bold">Compétences : </p>
+                        <ul class="texte_project">
+                            <li>Analyse</li>
+                            <li>Conception Marketing</li>
+                            <li>Créativité et innovation</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card_project com">
+                <div class="card_inner">
+                    <div class="card_front">
+                        <img src="./medias/images/audit.png"
+                            alt="Page de garde du dossier d'audit de l'entreprise MaKibell que j'ai réalisé"
+                            class="img_project">
+                        <h3 class="title_project">Audit de l'entreprise MaKibell</h3>
+                    </div>
+                    <div class="card_back">
+                        <h3 class="title_project">Audit de l'entreprise MaKibell</h3>
+                        <p class="texte_project">Contexte : Dans le cadre de ma première année de MMI,
+                            j'ai été chargé de réaliser un audit de la marque MaKibell. L'objectif est
+                            d'évaluer s'ils répondaient aux attentes des utilisateurs et de faire un panorama de
+                            l'entreprise.
+
+                        </p>
+                        <p class="texte_project">Méthode de travail : En collaboration avec mon équipe, nous avons
+                            collecté
+                            des
+                            informations sur l'entreprise, analysé son contexte, réalisé un audit économique
+                            et de trafic, analysé ses éléments linguistiques et évalué son architecture de
+                            l'information,
+                            puis rédigé un rapport d'audit résumant
+                            les observations et recommandations. </p>
+                        <p class="bold">Compétences : </p>
+                        <ul class="texte_project">
+                            <li>Collecte d'Informations</li>
+                            <li>Audit economique, du trafic, d'ergonomie, sémiotique et d'architecture de l'information
+                            </li>
+                            <li>Travail en équipe</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card_project dev">
+                <div class="card_inner">
+                    <div class="card_front">
+                        <img src="./medias/images/portfolio.png" alt="Page d'accueil de mon site web personnel"
+                            class="img_project">
+                        <h3 class="title_project">Site web personnel</h3>
+                    </div>
+                    <div class="card_back">
+                        <h3 class="title_project">Site web personnel</h3>
+                        <p class="texte_project">Contexte :
+                            Afin de faciliter ma recherche de stage ou
+                            d'alternance, ainsi que le réseautage professionnel, j'ai créé mon propre site web
+                            personnel.
+                            Ce site, conçu pour être une page unique dois inclure une mini-bio, une galerie
+                            de travaux, et mes coordonnées de contact.
+                        </p>
+                        <p class="texte_project">Méthode de travail : J'ai
+                            d'abord défini ses objectifs, analysé mes besoins spécifiques et planifié sa structure à
+                            l'aide
+                            d'un wireframe, d'une maquette fonctionnel et d'un design système. Ensuite,
+                            j'ai utilisé des langages tels que HTML, CSS et JavaScript pour développer l'interface
+                            utilisateur.</p>
+                        <p class="bold">Compétences : </p>
+                        <ul class="texte_project">
+                            <li>Développement Web Front-End </li>
+                            <li>Design d'interface</li>
+                            <li>Analyse</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="card_project other">
+                <div class="card_inner">
+                    <div class="card_front">
+                        <img src="./medias/images/logo_fabrik.png" alt="Logo du concours Fabrik Ta Pépite"
+                            class="img_project">
+                        <h3 class="title_project">Fabrik Ta Pépite</h3>
+                    </div>
+                    <div class="card_back">
+                        <h3 class="title_project">Fabrik Ta Pépite</h3>
+                        <p class="texte_project">Contexte :
+                            FabrikTaPépite est un concours d'innovation et d'entrepreunariat. Grace à MMI, j'ai eu
+                            l'occasion d'y participer, je fais partie d'une équipe de 5, dont 2 autres étudiants de MMI
+                            et 2
+                            ingénieurs de l'ENSSAT. Nous avons comme objectif de créer une application permettant de
+                            faciliter le processus de l'état des lieux
+                        </p>
+                        <p class="texte_project">Méthode de travail : J'ai été nommé directeur marketing, je me suis
+                            donc occupé de l'étude de marché et de la réalisation d'un questionnaire quantitatif </p>
+                        <p class="bold">Compétences : </p>
+                        <ul class="texte_project">
+                            <li>Marketing </li>
+                            <li>Esprit d'entreprendre</li>
+                            <li>Travail en équipe et gestion de projet</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </section>
+    <h2 class="categorie">Contact</h2>
+
+    <h3 class="sous_categorie">Si vous êtes arrivé jusque là, c’est surement que mon profil vous intéresse, alors
+        n’hésitez pas à me contacter !</h3>
+    <section class="project">
+        <a class="view-project-link" href="mailto:gabin.clavier22@gmail.com">
+            E-mail
+            <div class="hover-mask">
+                <span class="its-mac"> E-mail </span>
+            </div>
+        </a>
+        <a class="view-project-link" href="https://www.linkedin.com/in/g-clavier" target="_blank">
+            LinkedIn
+            <div class="hover-mask">
+                <span class="its-mac"> LinkedIn </span>
+            </div>
+        </a>
+        <a class="view-project-link" href="./medias/images/CV_Gabin_Clavier.png" target="_blank">
+            Mon CV
+            <div class="hover-mask">
+                <span class="its-mac"> Mon CV </span>
+            </div>
+        </a>
+        <a class="view-project-link" href="https://github.com" target="_blank">
+            Mon GitHub
+            <div class="hover-mask">
+                <span class="its-mac"> Mon GitHub </span>
+            </div>
+        </a>
+    </section>
+
+
+    <script>
+        // Fonction pour filtrer les éléments en fonction de leur classe
+        function filterSelection(choice) {
+            let elements = document.getElementsByClassName("card_project");
+            for (let i = 0; i < elements.length; i++) {
+                if (choice == "all" || elements[i].classList.contains(choice)) {
+                    elements[i].style.display = "block";
+                } else {
+                    elements[i].style.display = "none";
+                }
+            }
+        }
+
+        // Afficher tous les éléments par défaut
+        filterSelection("all");
+
+
+    </script>
+
+
+</body>
+
+
+</html>

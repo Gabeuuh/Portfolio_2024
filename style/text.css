@@ -1,0 +1,65 @@
+a{
+    font-family: bebas neue;
+    font-size: 2em;
+    text-decoration: none;
+}
+
+h1, .typed-cursor {
+    font-family: bebas neue;
+    font-size: 6em;
+    padding: 0;
+    margin: 0;
+    color: black;
+}
+
+
+#element{
+    margin-left: 20px;
+    color: #F28749;
+}
+.typed-cursor{
+    color: #F28749;
+}
+
+h2{
+    font-family: Glacial;
+    font-weight: bold;
+}
+
+.texte_competence{
+    height: 0;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 0;
+}
+
+.texte_forma{
+    height: 0;
+    opacity: 0;
+    width: 0;
+    font-family: Glacial;
+    text-align:center;
+    word-wrap: break-word;
+    margin: 0px;
+    margin-top: 30px;
+    cursor: default;
+}
+
+.title_project {
+    padding: 0px;
+    font-family: bebas neue;
+    margin: 20px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.texte_project {
+    font-family: Glacial;
+    font-size: 1em;
+    margin: 5px;
+    cursor: default;
+    padding: 0px;
+}
